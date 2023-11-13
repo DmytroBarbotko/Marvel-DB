@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+:root {
+    --red: #9F0013;
+    --dark: #232222;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+header {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header_h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.h2_marvel {
+    color: var(--red);
+}
+
+.header_h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.h3_marvel {
+    color: var(--red);
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/*Main begins*/
+
+.first_part {
+    display: flex;
+    justify-content: center;
+}
+
+.thor {
+    display: flex;
+    align-items: center;
+    width: 550px;
+    height: 250px;
+}
+
+.thor img {
+    padding-right: 20px;
+}
+
+.thor_descr {
+    font-size: 14px;
+}
+
+.sidebar {
+    display: flex;
+    width: 585px;
+    height: 250px;
+    background-color: var(--dark);
+}
+
+.sidebar div {
+    padding-left: 50px;
+}
+
+.ham_img {
+    width: 202px;
+    height: 200px;
+    padding-bottom: 0px;
+}
+
+.sidebar h2 {
+    color: #fff;
+}
+
+.avatar_menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.menu_left {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+.load_more {
+    grid-column: span 2;
+    grid-row: 4;
+}
+
+.menu_right {
+    width: 425px;
+    height: 763px;
+    background-color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.menu_right_header {
+    display: flex;
+    padding-top: 20px;
+}
+
+.loki_menu {
+    padding-top: 0px;
+}
+
+.loki_descr {
+    font-size: 14px;
+}
+
+.loki_img {
+    width: 150px;
+    height: 150px;
+}
+
+.menu_header_buttons {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+.bg_asset {
+    padding-left: 150px;
+}
+
